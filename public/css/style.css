@@ -1,0 +1,37 @@
+h1{
+    border: red solid 2px;
+}
+
+li:nth-child(2):hover, li:nth-child(3):hover{
+    text-decoration: underline;
+}
+
+span ~ p {
+    background-color: green;
+}
+
+ul{
+    border-left: black solid 2px;
+}
+
+section:nth-child(even){
+    background-color: yellow;
+}
+
+section:nth-child(7):hover h2{
+    font-size: 2rem;
+}
+
+input:focus{
+    background-color: black;
+    color: white;
+}
+
+a[href^="./p"]{
+    border-top: red solid 2px;
+}
+
+section:nth-child(3n+3) h2{
+    background-color: black;
+    color: white;
+}
